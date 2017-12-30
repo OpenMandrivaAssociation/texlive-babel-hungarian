@@ -1,12 +1,6 @@
-# revision 33353
-# category Package
-# catalog-ctan /macros/latex/contrib/babel-contrib/hungarian/magyar.ldf
-# catalog-date 2014-02-26 23:03:13 +0100
-# catalog-license lppl
-# catalog-version 1.5
 Name:		texlive-babel-hungarian
-Version:	1.5
-Release:	11
+Version:	1.5c
+Release:	1
 Summary:	Babel support for Hungarian (Magyar)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/hungarian/magyar.ldf
@@ -31,7 +25,7 @@ support of Magyar (Hungarian) with babel.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/babel-hungarian/magyar.ldf
+%{_texmfdistdir}/tex/generic/babel-hungarian
 
 #-----------------------------------------------------------------------
 %prep
