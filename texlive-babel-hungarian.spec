@@ -1,6 +1,6 @@
 Name:		texlive-babel-hungarian
 Version:	1.5c
-Release:	1
+Release:	2
 Summary:	Babel support for Hungarian (Magyar)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/hungarian/magyar.ldf
