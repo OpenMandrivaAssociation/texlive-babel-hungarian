@@ -1,11 +1,11 @@
 Name:		texlive-babel-hungarian
-Version:	1.5c
-Release:	2
+Version:	49701
+Release:	1
 Summary:	Babel support for Hungarian (Magyar)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/hungarian/magyar.ldf
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-hungarian.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-hungarian.r49701.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -16,12 +16,12 @@ The package provides a language definition file that enables
 support of Magyar (Hungarian) with babel.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -29,7 +29,7 @@ support of Magyar (Hungarian) with babel.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 
