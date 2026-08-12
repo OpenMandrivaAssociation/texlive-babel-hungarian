@@ -1,9 +1,10 @@
 %global tl_name babel-hungarian
-%global tl_revision 79587
+%global tl_revision 79912
+%global tl_version 1.6d
 
 Name:		texlive-%{tl_name}
 Epoch:		1
-Version:	1.6c
+Version:	%{tl_version}
 Release:	%{tl_revision}.1
 Summary:	Babel support for Hungarian
 Group:		Publishing
@@ -13,7 +14,7 @@ Source0:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-hungarian.
 Source1:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-hungarian.doc.r%{tl_revision}.tar.xz
 BuildArch:	noarch
 BuildSystem:	texlive
-Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}) = %{version}
 
 %description
 The package provides a language definition file that enables support of
